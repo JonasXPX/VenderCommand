@@ -1,0 +1,5 @@
+name: SellCommand
+main: me.jonasxpx.vendercommand.Main
+version: 1.0
+commands:
+    vender:
