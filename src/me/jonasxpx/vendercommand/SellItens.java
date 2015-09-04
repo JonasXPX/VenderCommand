@@ -18,6 +18,7 @@ public class SellItens {
 		this.consoleDebug = consoleDebug;
 	}
 	
+	
 	public void sellItens(final ItemStack material, final Player player){
 		double vLocal = 0;
 		for(final ItemStack item : itens.keySet()){

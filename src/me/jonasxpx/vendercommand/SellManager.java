@@ -22,7 +22,6 @@ public class SellManager {
 		}).start();
 		
 	}
-	
 	public static void SellSlotItem(Player player){
 		Main.getSellItensClass().sellItens(player.getItemInHand(), player);
 	}

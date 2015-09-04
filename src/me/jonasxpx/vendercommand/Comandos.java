@@ -24,6 +24,7 @@ public class Comandos implements CommandExecutor{
 			sender.sendMessage("§cSem permissão para usar este comando:§6 vender.use");
 			return true;
 		}
+	
 		if(args.length >= 1 ){
 			if(args[0].equalsIgnoreCase("tudo")){
 				SellManager.sellFullItem((Player)sender);

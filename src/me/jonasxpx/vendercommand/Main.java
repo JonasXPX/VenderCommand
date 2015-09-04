@@ -49,6 +49,7 @@ public class Main extends JavaPlugin{
 		sell = new SellItens(itens, getConfig().getBoolean("MostrarVendaNoConsole"));
 	}
 	
+	
 	/*
 	 * Dependenias  --- NÃO ALTERAR! --- 
 	 */
